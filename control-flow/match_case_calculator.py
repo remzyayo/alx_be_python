@@ -14,4 +14,5 @@ match operation:
    case "/":
       if num2 != 0:
         result = num1 / num2 
-        print("The result is: ", result)
+        print("Result", result)
+      
