@@ -13,5 +13,5 @@ match Priority:
         Reminder = f" Unknown Priority: {Task} (check the priority spelling)."
 if time_bound == "yes":
     Reminder += " This is a time-sensitive task that requires immediate attention today!"
-print(f"\n Reminder")
+print(f"\n Reminder: ")
 print(Reminder)
