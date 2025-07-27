@@ -1,6 +1,6 @@
 # arithmetic_operations.py
 
-def perform_operation("num1", "num2", "operation"):
+def perform_operation(num1, num2, operation):
     """
     Perform basic arithmetic operations based on the specified operation.
     print("Arithmetic Operations")
