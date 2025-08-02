@@ -1,7 +1,7 @@
 # library_management.py
 
 class Book:
-    def __init__(self, title, author):
+    def __init__(self):
         self.title = title
         self.author = author
         self._is_checked_out = False
@@ -53,4 +53,5 @@ class Library:
         else:
             for book in available_books:
                 print(book)
+
 
